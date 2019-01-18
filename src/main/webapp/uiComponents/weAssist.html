@@ -1,0 +1,19 @@
+<div dh-window data-ng-controller ="weAssistMainController">
+
+<div>Welcome {{userName}}</div>
+<div>
+    <uib-tabset type="pills">
+        <uib-tab heading="MY ASSIST!">
+            <div ng-include =" 'uiComponents/myAssist.html' "></div>
+        </uib-tab>
+
+        <uib-tab heading="ME ASSIST" >
+            <div ng-include =" 'uiComponents/meAssist.html' "></div>
+        </uib-tab>
+        <uib-tab heading="MY WALLET" >
+            <div ng-include ="'uiComponents/myWallet.html'">
+            </div>
+        </uib-tab>
+    </uib-tabset>
+</div>
+</div>

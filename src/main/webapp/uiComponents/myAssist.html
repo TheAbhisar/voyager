@@ -1,0 +1,29 @@
+<div dh-window data-ng-controller ="myAssistController">
+<div class = "fieldSet" ALIGN="center">
+    <table>
+        <tr>
+            <td class = "textPaddding textFont ">
+                <label class="control-label" >Need Assistance</label>
+            </td>
+            <td><select class ="form-control"
+                        ng-model = "myAssistance.myAssistanceType"
+                        ng-options="assistance for assistance in assistantaneTypeList"></select></td>
+            <td class = "textPaddding textFont ">
+                <label class="control-label" >Assistance Duration</label>
+            </td>
+            <td><select class ="form-control"
+                        ng-model = "myAssistance.duration"
+                        ng-options="duration for duration in myAssistanceDuration"></select></td>
+            <td class = "textPaddding textFont ">
+                <button class="myButton" ng-click="locateAssist()"> Locate Me & Assist </button></td>
+        </tr>
+    </table>
+
+</div>
+    <br>
+    <div ng-if = "displayGrid" ><div class="gridStyle" ng-grid="gridOptions"></div>
+       <center>
+           <button class="myButton" ng-click="submitAssistanceDetails()"> Approve </button>
+       </center>
+    </div>
+</div>

@@ -6,7 +6,12 @@ app.service("loginService", function($http) {
                 + password ).success(callback);
     }
    this.registerNewUser = function(newUserRegistrationBean, callback){
-        $http.post("rest/weAssist/registerNewUser?" +
+        $http.post("restWeAssist/Register/registerNewUser?" +
         		    "newUserRegistrationBean="+newUserRegistrationBean).success(callback);
         }
+     this.seekAssistance = function(myAssistance, callback){
+             $http.post("restWeAssist/Assist/seekAssistance?" +
+             		    "myAssistance="+myAssistance).success(callback);
+     }
+
 });

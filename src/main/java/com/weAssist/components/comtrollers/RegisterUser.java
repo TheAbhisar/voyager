@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/weAssist/Register")
+@RequestMapping("/restWeAssist/Register")
 public class RegisterUser {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/registerUser")
-    public boolean RegisterUser(@RequestParam(value = "RegisterUserDetails", required = true) Object RegisterUserDetails) {
-
+    @RequestMapping(method = RequestMethod.POST, value = "/registerNewUser")
+    public boolean RegisterUser(@RequestParam(value = "newUserRegistrationBean", required = true) Object RegisterUserDetails) {
+        System.out.println(" found");
         return true;
     }
 }

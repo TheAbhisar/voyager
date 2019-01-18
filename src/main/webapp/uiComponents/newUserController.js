@@ -10,10 +10,10 @@ app.controller("newUserController",    function($rootScope,
                         'Senior Citizen',
                         'Deaf','Dump']
              $scope.bankIdList=["State Bank Of India",
-                                                "HDFC Bank",
-                                                "ICICI Bank",
+                                            "HDFC Bank",
+                                            "ICICI Bank",
                                                 "Kotak Mahindra Bank",
-                                                "Others"]
+                                                "Others"];
              $scope.newUserRegistrationBean = {
                                     userName : "",
                                     email : "",
@@ -29,13 +29,10 @@ app.controller("newUserController",    function($rootScope,
                                     disability:"",
                    };
                 $scope.submitUser = function(){
-                        alert("Hello"+$scope.newUserRegistrationBean.userName);
-
                         loginService.registerNewUser(JSON.stringify($scope.newUserRegistrationBean), function(response) {
                             if (response) {
                                 alert("ok");
                             }
-                        }
-                        );
+                        });
                     };
 });
