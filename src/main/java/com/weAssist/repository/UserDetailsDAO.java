@@ -1,4 +1,4 @@
-package com.weAssit.repository;
+package com.weAssist.repository;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import javax.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.weAssit.entity.UserDetailsEntity;
+import com.weAssist.entity.UserDetailsEntity;
 
 
 

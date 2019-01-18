@@ -1,4 +1,4 @@
-package com.weAssit.entity;
+package com.weAssist.entity;
 
 import java.io.Serializable;
 

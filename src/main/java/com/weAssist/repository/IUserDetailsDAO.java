@@ -1,8 +1,8 @@
-package com.weAssit.repository;
+package com.weAssist.repository;
 
 import java.util.List;
 
-import com.weAssit.entity.UserDetailsEntity;
+import com.weAssist.entity.UserDetailsEntity;
 
 
 
