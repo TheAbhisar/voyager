@@ -2,15 +2,17 @@ package com.weAssit.repository;
 
 import java.util.List;
 
-import com.weAssist.model.UserDetails;
+import com.weAssit.entity.UserDetailsEntity;
+
+
 
 public interface IUserDetailsDAO {
 	
-	public List<UserDetails> getAllUserDetails();
+	public List<UserDetailsEntity> getAllUserDetails();
 	
-	public UserDetails getUserDetailsById(int userId);
+	public UserDetailsEntity getUserDetailsById(int userId);
 	
-	public UserDetails getUserDetailsByName(int userName);
+	public UserDetailsEntity getUserDetailsByName(int userName);
 	
-	public void addUserDetails(UserDetails userDetails);
+	public void addUserDetails(UserDetailsEntity userDetails);
 }
