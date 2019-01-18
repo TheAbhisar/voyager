@@ -1,0 +1,416 @@
+
+.titleBanner {
+border-radius: 200px;
+background: #9ba087;
+color: #ffffff;
+padding-top:10px;
+height: 60px;
+position:relative;
+text-decoration: blink;
+font-size:25px;
+border: 1px solid #000000;
+}
+.fieldSet{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	color: black;
+	background-color:lightgray;
+	border: 1px  solid #0000ff;
+}
+
+.textField {
+	background-color : #c6e2ff;
+	border: 1px solid #008000;
+	width: 100px;
+}
+
+.labelClass{
+	font-size:15px;
+	padding:10px 15px;
+}
+
+
+.myButton {
+	background-color:#f98f1c;
+	moz-border-radius:10px;
+	webkit-border-radius:10px;
+	border-radius:20px;
+	border:1px solid #c0c0c0;
+	display:inline-block;
+	cursor:pointer;
+	color:#0000ff;
+	font-family:Arial;
+	font-size:12px;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c0c0c0;
+}
+.myButton:hover {
+	background-color:#6483fd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
+}
+nav {
+    background-color: #6f6f6f;
+    border: 1px solid #333;
+    color: #fff;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    margin: 0;
+    display: inline-block;
+    list-style-type: none;
+    transition: all 0.2s;
+}
+
+nav > ul > li > a {
+    color: #03fc9e;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+nav li > ul{
+    display : none;
+    margin-top:1px;
+    background-color: #bbb;
+}
+
+nav li > ul li{
+    display: block;
+}
+
+nav  li > ul li a {
+    color: #111;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #666;
+}
+nav li:hover > ul{
+    position:absolute;
+    display : block;
+}
+nav li > ul > li ul  {
+    display: none;
+    background-color: #888;
+}
+nav li > ul > li:hover > ul  {
+    position:absolute;
+    display : block;
+    margin-left:100%;
+    margin-top:-3em;
+}
+
+nav ul > li.sub{
+    background: url(ic_keyboard_arrow_down_white_18dp.png) right center no-repeat;
+}
+
+nav ul > li.sub li.sub{
+    background: url(ic_keyboard_arrow_right_white_18dp.png) right center no-repeat;
+}
+
+.userheader{
+	border: 1px solid powderblue;
+	background-color: #c0c0c0;
+	color:#000000;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 0;
+	margin-left: -120px;
+	margin-right: -120px;
+}
+
+.modal-header{
+	border: 1px solid powderblue;
+	background-color: #c0c0c0;
+	color:#000000;
+    border: 2px solid gray;
+    margin: 0;
+}
+
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 1200px;
+    height: 400px;
+    font-family:Arial;
+	font-size:12px;
+}
+
+
+.ngCellText{
+   border: 1px solid rgb(212,212,212);
+   width:30px;
+}
+
+/*style.css*/
+.gridTableStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 400px;
+    height: 300px;
+
+}
+
+.buy{
+		color: #fff;
+		background: #01a453;
+
+
+}
+.buy:hover {
+	background-color:#5cbf2a;
+}
+.buy:active {
+	position:relative;
+	top:1px;
+}
+.sell{
+	color: #fff;
+    background: #ff2728;
+
+}
+.sell:hover {
+	background-color:#ff8040;
+}
+.sell:active {
+	position:relative;
+	top:1px;
+}
+
+.simple-Modal .modal-dialog{
+ height: 400px;
+  width: 1200px;
+  position:relative;
+}
+
+.treeTableStyle{
+	height: 30px;
+  	width: 1200px;
+  	position:Relative;
+	border:1px solid #18ab29;
+  	background-color:#e4ebfc;
+}
+
+.treeTableStyleRow{
+	width: 1200px;
+  	 background-color:#f3f7fe;
+}
+
+.treeTableStylePaddingRow{
+    	background-color:#c0c0c0;
+}
+.treeTableStylePaddingRow.td{
+padding-right :100px;
+}
+.test{
+	background-color:#ff0000;
+}
+
+
+.tradeCell{
+	 border: 1px solid rgb(212,212,212);
+}
+
+
+.titleBanner {
+border-radius: 200px;
+background: #9ba087;
+color: #ffffff;
+padding-top:10px;
+height: 60px;
+position:relative;
+text-decoration: blink;
+font-size:25px;
+border: 1px solid #000000;
+}
+
+nav {
+    background-color: #c0c0c0;
+    border: 1px solid #333;
+    color: #fff;
+    display: block;
+    margin: 10;
+    overflow: hidden;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0;
+    display: inline-block;
+    list-style-type: none;
+    transition: all 0.2s;
+}
+
+nav > ul > li > a {
+    color: #ffffff;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+nav li > ul{
+    display : none;
+    margin-top:1px;
+    background-color: #bbb;
+}
+
+nav li > ul li{
+    display: block;
+}
+
+nav  li > ul li a {
+    color: #111;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #666;
+}
+
+nav li:hover > ul{
+    position:absolute;
+    display : block;
+}
+
+nav li > ul > li ul  {
+    display: none;
+    background-color: #888;
+}
+
+nav li > ul > li:hover > ul  {
+    position:absolute;
+    display : block;
+    margin-left:100%;
+    margin-top:-3em;
+}
+
+nav ul > li.sub{
+    background: url(ic_keyboard_arrow_down_white_18dp.png) right center no-repeat;
+}
+
+nav ul > li.sub li.sub{
+    background: url(ic_keyboard_arrow_right_white_18dp.png) right center no-repeat;
+}
+
+.fieldSet{
+      border-radius: 200px;
+	padding-top:	20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	color: white;
+	background-color:#9ba087;
+	border: 2px  solid #0000ff;
+}
+
+.myButton {
+	background-color:dce2e2;
+	moz-border-radius:8px;
+	webkit-border-radius:8px;
+	background: -moz-linear-gradient(top,#dce2e2 0%,#c9ced1 50%,#afb7b9 100%);
+    background: -webkit-linear-gradient(top,#dce2e2 0%,#c9ced1 50%,#afb7b9 100%);
+    background: linear-gradient(to bottom,#dce2e2 0%,#c9ced1 50%,#afb7b9 100%);
+	border-radius:10px;
+	border:2px solid #c0c0c0;
+	display:inline-block;
+	cursor:pointer;
+	color:#0c5adc;
+	font-family:Arial;
+	font-size:12px;
+	padding:10px 15px;
+	text-decoration:none;
+}
+
+.mybutton:hover {
+	cursor: pointer;
+	border-color: #FABD44;
+	text-decoration:underline;
+}
+
+.textFont{
+	color:#0000ff;
+	font-family:Arial;
+	font-size:14px;
+}
+
+.generalTxt{
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+}
+
+.textPaddding{
+      padding-left: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+}
+
+.app-modal-window{
+      position: relative;
+}
+
+.modal-header{
+    width:800px;
+    height:60px;
+	border: 1px solid powderblue;
+	background-color: #9ba087;
+	color:#ffffff;
+    border: 2px solid gray;
+    margin: 0;
+}
+
+.modal-content{
+     width:800px;
+     border: 1px solid powderblue;
+      background-color:#9ba087;
+      color:#9ba087;
+}
+
+.modal-footer{
+    width:800px;
+	height:60px;
+	border: 1px solid powderblue;
+	background-color: #9ba087;
+    border: 2px solid gray;
+    margin: 0;
+}
+
+.dashboard-background{
+	border: 1px solid #87d1da;
+	background-color: #87d1da;
+	margin-top: 20px;
+	margin-left: -10px;
+	margin-right: 0px;
+}

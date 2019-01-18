@@ -1,0 +1,111 @@
+<!-- Modal content -->
+<div dh-window  data-ng-controller="newUserController">
+    <div class="modal-content">
+        <div class="modal-header">
+            <center>
+                <label class="control-label" >Please Enter valid Details for Registration ..</label>
+            </center>
+        </div>
+        <div class="modal-body textFont " ALIGN="center"">
+        <table>
+            <tr>
+                <td class = "textPaddding textFont ">
+                    <label class="control-label" >Name</label>
+                </td>
+                <td class = "textPaddding ">
+                    <input  class ="form-control" TYPE="text"
+                            ng-model="newUserRegistrationBean.userName"></td>
+                <td class = "textPaddding textFont">
+                    <label class="control-label">e-mail</label>
+                </td>
+                <td class = "textPaddding">
+                    <input class ="form-control" TYPE="text"
+                           ng-model="newUserRegistrationBean.email"></td>
+            </tr>
+            <tr>
+                <td class = "textPaddding textFont">
+                    <label class="control-label" >Gender</label>
+                </td>
+                <td><select class ="form-control"
+                            ng-model = "newUserRegistrationBean.gender"
+                            ng-options="gender for gender in genderList"></select></td>
+                <td class = "textPaddding textFont">
+                    <label class="control-label" for="date">Date Of Birth</label>
+                </td>
+                <td>
+                    <input class="form-control" id="date"
+                           ng-model="newUserRegistrationBean.date" name="date"
+                           placeholder="MM/DD/YYY" type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <td class = "textPaddding textFont">
+                    <label class="control-label">Cell No</label>
+                </td>
+                <td class = "textPaddding">
+                    <input  class="form-control" TYPE="text"
+                            ng-model="newUserRegistrationBean.cellNo">
+                </td>
+            </tr>
+            <tr>
+                <td class = "textPaddding textFont">
+                    <label class="control-label">Disability Type</label>
+                </td>
+                <td><select class ="form-control"
+                            ng-model = "newUserRegistrationBean.disability"
+                            ng-options="disability for disability in disabilityList"></select></td>
+            </tr>
+            <tr>
+                <td class = "textPaddding textFont">
+                    <label class="control-label">Bank Details</label>
+                </td>
+                <td><select class ="form-control"
+                            ng-model = "newUserRegistrationBean.bankId"
+                            ng-options="bankId for bankId in bankIdList"></select></td>
+                <td class = "textPaddding textFont">
+                    <label class="control-label">Account No</label>
+                </td>
+                <td class = "textPaddding">
+                    <input class="form-control" TYPE="text"
+                           ng-model="newUserRegistrationBean.accountNo"></td>
+            </tr>
+            <tr>
+                <td class = "textPaddding textFont">
+                    <label class="control-label">Pan Card</label>
+                </td>
+                <td class = "textPaddding">
+                    <input  class="form-control" TYPE="text"
+                            ng-model="newUserRegistrationBean.panCard"></td>
+                <td class = "textPaddding textFont">
+                    <label class="control-label">Aadhar Card</label>
+                </td>
+                <td class = "textPaddding">
+                    <input class="form-control" TYPE="text"
+                           ng-model="newUserRegistrationBean.aadhar"></td>
+            </tr>
+            <tr>
+                <td class = "textPaddding textFont">
+                    <label class="control-label">Password</label>
+                </td>
+                <td class = "textPaddding">
+                    <input class="form-control" TYPE="text"
+                           ng-model="newUserRegistrationBean.password"></td>
+                <td class = "textPaddding textFont">
+                    <label class="control-label">Confirm Password</label>
+                </td>
+                <td class = "textPaddding">
+                    <input class="form-control" TYPE="text"
+                           ng-model="newUserRegistrationBean.conformPassword"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="modal-footer" >
+    <table>
+        <tr><td>
+            <button class="myButton" ng-click="submitUser()"> Submit</button>
+            <button class="myButton" ng-click="resetAll()"> Reset</button>
+        </td></tr>
+    </table>
+</div>
+

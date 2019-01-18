@@ -1,0 +1,34 @@
+<div dh-window data-ng-controller ="loginController" ng-init="init()">
+
+    <div class = "fieldSet" ALIGN="center">
+        <br>
+        <div style="color:#0000FF">
+            <center>{{inValidCredentials}}</center>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td class = "textPaddding textFont "> User Name:</td>
+                    <td class = "textPaddding" > <input TYPE="text"
+                                ng-model="userName"></td>
+                </tr>
+                <tr>
+                    <td class ="textPaddding textFont"> Password:</td>
+                    <td class = "textPaddding"> <input TYPE="password"
+                                ng-model="password"></td>
+                </tr>
+                    <td></td>
+                    <td ><button class="myButton" ng-click="login()"> Login</button>
+                        <button class="myButton" ng-click="reset()"> Reset</button></td>
+                </tr>
+                <tr>
+                    <td><a href ng-click="popupForgotPasswordAlert()">Forgot Password</a></td>
+                </tr>
+
+                <tr>
+                    <td><a href ng-click="popUpRegistrationPage()">New User Registration</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
