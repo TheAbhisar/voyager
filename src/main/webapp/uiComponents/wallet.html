@@ -1,0 +1,33 @@
+<div dh-window data-ng-controller ="myAssistController">
+    <div class = "fieldSet" ALIGN="center">
+        <table>
+            <tr>
+                <td class = "textPaddding textFont ">
+                    <label class="control-label" >Total Credits</label>
+                </td>
+                <td><select class ="form-control"
+                            ng-model = "myAssistance.assistentWorkType"
+                            ng-options="assistance for assistance in assistantaneTypeList"></select></td>
+                <td class = "textPaddding textFont ">
+                    <label class="control-label" >Balance Credit</label>
+                </td>
+                <td><select class ="form-control"
+                            ng-model = "myAssistance.duration"
+                            ng-options="duration for duration in myAssistanceDuration"></select></td>
+                <td class = "textPaddding textFont ">
+                    <label class="control-label" >Bank Name</label>
+                </td>
+                <td><select class ="form-control"
+                    ng-model = "myAssistance.duration"
+                    ng-options="duration for duration in myAssistanceDuration"></select></td>
+                
+                    <button class="myButton" ng-click="register()"> Back</button></td>
+
+                    <td><select class ="form-control"
+                        ng-model = "myAssistance.duration"
+                        ng-options="duration for duration in myAssistanceDuration"></select></td>
+                <td class = "textPaddding textFont ">
+                    <button class="myButton" ng-click="register()"> Encash</button></td>
+            </tr>
+        </table>
+    </div>
