@@ -1,0 +1,14 @@
+[
+{"type":"header","version":"4.8.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"weassist"},
+{"type":"table","name":"disability_table","database":"weassist","data":
+[
+{"disablity_code":"EL","disability_type":"Elderly"},
+{"disablity_code":"HI","disability_type":"Hearing Imapired"},
+{"disablity_code":"NA","disability_type":"Not Applicable"},
+{"disablity_code":"OH","disability_type":"Orthopediaclly Handicapped"},
+{"disablity_code":"PR","disability_type":"Pregnancy"},
+{"disablity_code":"VI","disability_type":"Visually Impaired"}
+]
+}
+]
