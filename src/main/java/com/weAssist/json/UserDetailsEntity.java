@@ -1,40 +1,28 @@
 package com.weAssist.json;
-/*package com.weAssist.entity;
 
 import java.io.Serializable;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
 
-@Entity
-@Table(name = "user_details")
 public class UserDetailsEntity implements Serializable {
-
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "user_id")
+	
 	private int userId;
 
-	@Column(name = "first_name")
+	
 	private String first_name;
 
-	@Column(name = "last_name")
+	
 	private String last_name;
 
-	@Column(name = "gender")
+	
 	private String gender;
 
-	@Column(name = "date_of_birth")
+	
 	private String date_of_birth;
 
-	@Column(name = "disability")
+	
 	private String disability;
 
-	@Column(name = "volunteer")
+	
 	private String volunteer;
 
 	public int getUserId() {
@@ -93,4 +81,4 @@ public class UserDetailsEntity implements Serializable {
 		this.volunteer = volunteer;
 	}
 
-}*/
+}

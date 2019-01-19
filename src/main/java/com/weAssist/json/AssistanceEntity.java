@@ -1,36 +1,27 @@
 package com.weAssist.json;
-/*package com.weAssist.entity;
 
 import java.io.Serializable;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
 
 
-@Entity
-@Table (name = "assistance_table")
 public class AssistanceEntity implements Serializable{
 
-    @Column(name="volunteer_id")
+   
     private int volunteer_id;
 
-    @Column(name="help_seeker_id")
+    
     private int help_seeker_id;
 
-    @Column(name="type_of_help")
+    
     private String type_of_help;
 
-    @Column(name="status_of_help")
+    
     private String status_of_help;
 
-    @Column(name="start_time")
+    
     private String start_time;
 
-    @Column(name="end_time")
+    
     private String end_time;
 
 
@@ -81,4 +72,4 @@ public class AssistanceEntity implements Serializable{
     public void setEnd_time(String end_time) {
         this.end_time = end_time;
     }    
-}*/
+}
