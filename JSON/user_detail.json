@@ -1,0 +1,13 @@
+[
+{"type":"header","version":"4.8.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"weassist"},
+{"type":"table","name":"user_details","database":"weassist","data":
+[
+{"user_id":"1","first_name":"Aditya","last_name":"Kishore","gender":"M","date_of_birth":"20\/12\/1997","disability":"OH","volunteer":"Y"},
+{"user_id":"2","first_name":"Abhishek","last_name":"Saraf","gender":"M","date_of_birth":"12\/20\/1996","disability":"VI","volunteer":"Y"},
+{"user_id":"3","first_name":"Sita","last_name":"Priya","gender":"F","date_of_birth":"31\/05\/2000","disability":"OH","volunteer":"Y"},
+{"user_id":"4","first_name":"Ram","last_name":"","gender":"M","date_of_birth":"19\/07\/1989","disability":"NA","volunteer":"Y"},
+{"user_id":"5","first_name":"Gita","last_name":null,"gender":"F","date_of_birth":"30\/06\/1999","disability":"PG","volunteer":"N"}
+]
+}
+]
