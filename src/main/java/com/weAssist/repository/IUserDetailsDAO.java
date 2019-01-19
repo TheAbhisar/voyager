@@ -1,4 +1,4 @@
-package com.weAssist.repository;
+/*package com.weAssist.repository;
 
 import java.util.List;
 
@@ -16,3 +16,4 @@ public interface IUserDetailsDAO {
 	
 	public void addUserDetails(UserDetailsEntity userDetails);
 }
+*/

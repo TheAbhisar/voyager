@@ -1,3 +1,4 @@
+package com.weAssist.json;
 /*package com.weAssist.entity;
 
 import java.io.Serializable;

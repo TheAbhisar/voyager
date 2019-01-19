@@ -1,4 +1,4 @@
-package com.weAssist.repository;
+/*package com.weAssist.repository;
 
 import java.util.List;
 
@@ -40,4 +40,4 @@ public class UserDetailsDAO implements IUserDetailsDAO {
 		entityManager.persist(userDetails);		
 	}	
 
-}
+}*/
