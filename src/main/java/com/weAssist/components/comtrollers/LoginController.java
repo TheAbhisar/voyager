@@ -23,6 +23,8 @@ public class LoginController {
             userDetails.setFirst_name("Abhijeet");
             userDetails.setLast_name("Mohanty");
             userDetails.setUserId(123456);
+            userDetails.setTotalCreditPoints(2000);
+            userDetails.setAvailableCreditPoints(500);
             return userDetails;
         }
         return new UserDetails();

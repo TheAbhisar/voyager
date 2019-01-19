@@ -11,7 +11,7 @@ public class RegisterUser {
 
     @RequestMapping(method = RequestMethod.POST, value = "/registerNewUser")
     public boolean RegisterUser(@RequestParam(value = "newUserRegistrationBean", required = true) Object RegisterUserDetails) {
-        System.out.println(" found");
+
         return true;
     }
 }

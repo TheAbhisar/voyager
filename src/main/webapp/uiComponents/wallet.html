@@ -3,41 +3,36 @@
         <table>
             <tr>
                 <td class = "textPaddding textFont ">
-                    <label class="control-label" >Total Credits</label>
+                    <label class="control-label" >Total Credits Points</label>
                 </td>
-                <td><select class ="form-control"
-                            ng-model = "myAssistance.assistentWorkType"
-                            ng-options="assistance for assistance in assistantaneTypeList"></select></td>
+            </tr>
+            <tr>
+                <td class = "textPaddding" > <input TYPE="text"
+                                                    ng-model="totalCreditPoints"></td>
+            </tr>
+            <tr>
                 <td class = "textPaddding textFont ">
-                    <label class="control-label" >Balance Credit</label>
+                    <label class="control-label" >Available Credit</label>
                 </td>
-                <td><select class ="form-control"
-                            ng-model = "myAssistance.duration"
-                            ng-options="duration for duration in myAssistanceDuration"></select></td>
+            </tr>
+            <tr>
+                <td class = "textPaddding" > <input TYPE="text"
+                            ng-model="availableCreditPoints"></td>
+            </tr>
+            <tr>
                 <td class = "textPaddding textFont ">
-                    <label class="control-label" >Bank Name</label>
+                    <label class="control-label">Redem Cash</label>
                 </td>
+            </tr>
+            <tr>
                 <td><select class ="form-control"
-                            ng-model = "myAssistance.duration"
-                            ng-options="duration for duration in myAssistanceDuration"></select></td>
-                    
-                    <button class="myButton" ng-click="register()"> Back</button></td>
-                    <td><select class ="form-control"
-                        ng-model = "myAssistance.duration"
-                        ng-options="duration for duration in myAssistanceDuration"></select></td>
-                    <button class="myButton" ng-click="register()"> Paytm</button></td>
-                    <td><select class ="form-control"
-                        ng-model = "myAssistance.duration"
-                        ng-options="duration for duration in myAssistanceDuration"></select></td>
-                    <button class="myButton" ng-click="register()"> Tez</button></td>
-                    <td><select class ="form-control"
-                        ng-model = "myAssistance.duration"
-                        ng-options="duration for duration in myAssistanceDuration"></select></td>
-                    <button class="myButton" ng-click="register()"> PhonePay</button></td>
-                    <td><select class ="form-control"
-                        ng-model = "myAssistance.duration"
-                        ng-options="duration for duration in myAssistanceDuration"></select></td>
-                    <button class="myButton" ng-click="register()"> Encash</button></td>
+                            ng-model = "redeemCash"
+                            ng-options="redeemCash for redeemCash in redeemCashList"></select>
+            </tr>
+            <br>
+            <tr>
+                <td align="center"><button class="myButton" ng-click="encash()"> Encash </button></td>
+
             </tr>
         </table>
-    </div>
+</div>

@@ -23,7 +23,8 @@ app.controller("loginController", function
                                     $scope.loginSuccess= false;
                                 };
                         $scope.login = function() {
-                                if ($scope.userName === "" || $scope.password === "") {
+                                if ($scope.userName == undefined ||$scope.userName == "" || $scope.password == undefined
+                                || $scope.password == "") {
                                     alert(" Please fill in all values");
                                  return;
                                  }

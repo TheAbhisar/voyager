@@ -7,34 +7,27 @@ import java.io.Serializable;
 public class UserDetails implements Serializable {
 
     private int userId;
-    private String first_name;
-    private String last_name;
+    private String userName;
+    private String email;
     private String gender;
     private String date_of_birth;
+    private String cellNo;
+    private String panCard;
+    private String aadhar;
     private String disability;
-    private String volunteer;
+
+    private int availableCreditPoints;
+     private String bankDetails;
+     private String accountNo;
+      private String password;
+      private String confirmPassword;
+        private int totalCreditPoints;
 
     public int getUserId() {
         return this.userId;
     }
     public void setUserId(int userId) {
         this.userId = userId;
-    }
-
-    public String getFirst_name() {
-        return this.first_name;
-    }
-
-    public void setFirst_name(String first_name) {
-        this.first_name = first_name;
-    }
-
-    public String getLast_name() {
-        return this.last_name;
-    }
-
-    public void setLast_name(String last_name) {
-        this.last_name = last_name;
     }
 
     public String getGender() {
@@ -61,12 +54,91 @@ public class UserDetails implements Serializable {
         this.disability = disability;
     }
 
-    public String getVolunteer() {
-        return this.volunteer;
+    public int getTotalCreditPoints() {
+        return totalCreditPoints;
     }
 
-    public void setVolunteer(String volunteer) {
-        this.volunteer = volunteer;
+    public void setTotalCreditPoints(int totalCreditPoints) {
+        this.totalCreditPoints = totalCreditPoints;
     }
 
+    public int getAvailableCreditPoints() {
+        return availableCreditPoints;
+    }
+
+    public void setAvailableCreditPoints(int availableCreditPoints) {
+        this.availableCreditPoints = availableCreditPoints;
+    }
+
+    public String getCellNo() {
+        return cellNo;
+    }
+
+    public void setCellNo(String cellNo) {
+        this.cellNo = cellNo;
+    }
+
+    public String getPanCard() {
+        return panCard;
+    }
+
+    public void setPanCard(String panCard) {
+        this.panCard = panCard;
+    }
+
+    public String getAadhar() {
+        return aadhar;
+    }
+
+    public void setAadhar(String aadhar) {
+        this.aadhar = aadhar;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getBankDetails() {
+        return bankDetails;
+    }
+
+    public void setBankDetails(String bankDetails) {
+        this.bankDetails = bankDetails;
+    }
+
+    public String getAccountNo() {
+        return accountNo;
+    }
+
+    public void setAccountNo(String accountNo) {
+        this.accountNo = accountNo;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getConfirmPassword() {
+        return confirmPassword;
+    }
+
+    public void setConfirmPassword(String confirmPassword) {
+        this.confirmPassword = confirmPassword;
+    }
 }
