@@ -2,6 +2,8 @@ package com.weAssist.components.comtrollers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.weAssist.model.AssistentDetails;
+
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -19,7 +21,7 @@ public class AssistentDetailsController {
 
     @RequestMapping(method = RequestMethod.POST, value = "/seekAssistance")
     public List<AssistentDetails> seekAssistance(
-            @RequestParam(value = "myAssistance", required = true) Object myAssistance) {
+            @RequestBody Object myAssistance) {
 
         String myAssistanceStr = myAssistance.toString();
         System.out.println("myAssistanceStr--- "+myAssistanceStr );
