@@ -20,8 +20,7 @@ public class LoginController {
                                 @RequestParam(value = "password", required = true) String password) {
         if(!StringUtils.isEmpty(userName) && !StringUtils.isEmpty(password) && matchUserNamePassowrd(userName, password)) {
             UserDetails userDetails =  new UserDetails();
-            userDetails.setFirst_name("Abhijeet");
-            userDetails.setLast_name("Mohanty");
+            userDetails.setUserName("Abhijeet Mohanty");
             userDetails.setUserId(123456);
             userDetails.setTotalCreditPoints(2000);
             userDetails.setAvailableCreditPoints(500);
